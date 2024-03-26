@@ -1,0 +1,12 @@
+x=linspace(0,10,1000);
+y=(exp(x)/100)+100*sin(x); 
+z=x.^(3)-10*x.^(2)+5*x+ 20;
+figure(1);
+plot(x,y,"g");
+hold on;
+plot(x,z,"r");
+hold off;
+yline(0);
+title('Función F(x) y G(x)');
+xlabel('eje x');
+ylabel('eje y');
